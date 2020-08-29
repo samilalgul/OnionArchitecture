@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>LoginProject1.Interfaces</RootNamespace>
+    <AssemblyName>LoginProject1.Interfaces</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\LoginProject1.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -3,19 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log-inProject1.DAL", "Log-inProjectDal\Log-inProject1.DAL.csproj", "{C9EC96FA-9624-4B1A-B9E5-C29498BA3378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginProject1.DAL", "Log-inProjectDal\LoginProject1.DAL.csproj", "{C9EC96FA-9624-4B1A-B9E5-C29498BA3378}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log-inProject1.BLL", "BLL\Log-inProject1.BLL.csproj", "{4AB0CE8B-75EE-439B-9F2C-AE42BD545F30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginProject1.BLL", "BLL\LoginProject1.BLL.csproj", "{4AB0CE8B-75EE-439B-9F2C-AE42BD545F30}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log-inProject1.Entities", "Entities\Log-inProject1.Entities.csproj", "{54E06306-82A6-4C45-B1B5-0650E030963C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginProject1.Entities", "Entities\LoginProject1.Entities.csproj", "{54E06306-82A6-4C45-B1B5-0650E030963C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log-inProject1.UI", "UI\Log-inProject1.UI.csproj", "{E68379CE-D141-4A98-B7C3-FEC6B210C4E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginProject1.UI", "UI\LoginProject1.UI.csproj", "{E68379CE-D141-4A98-B7C3-FEC6B210C4E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log-inProject1.UI.Tests", "Log-inProject1.UI.Tests\Log-inProject1.UI.Tests.csproj", "{11D4A746-AC06-4A49-9A51-63A1BD4ABA27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginProject1.UI.Tests", "Log-inProject1.UI.Tests\LoginProject1.UI.Tests.csproj", "{11D4A746-AC06-4A49-9A51-63A1BD4ABA27}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log-inProject1.Interfaces", "Log-inProject1.Interfaces\Log-inProject1.Interfaces.csproj", "{F7316843-2CCD-4C2D-99BD-D75EDD09C2B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginProject1.Interfaces", "Log-inProject1.Interfaces\LoginProject1.Interfaces.csproj", "{F7316843-2CCD-4C2D-99BD-D75EDD09C2B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log-inProject1.WebApi", "Log-inProject1.WebApi\Log-inProject1.WebApi.csproj", "{AFC0470F-69BE-4B50-BDD2-F71E3BBB8C90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginProject1.WebApi", "Log-inProject1.WebApi\LoginProject1.WebApi.csproj", "{AFC0470F-69BE-4B50-BDD2-F71E3BBB8C90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80C6A9CB-104F-4079-8509-B872179A2FFB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

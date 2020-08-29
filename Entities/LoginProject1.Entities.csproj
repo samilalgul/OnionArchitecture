@@ -2,10 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>LoginProject1.Entities</AssemblyName>
+    <RootNamespace>LoginProject1.Entities</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="log4net" Version="2.0.8" />
+    <Folder Include="Repository\" />
   </ItemGroup>
 
 </Project>
